@@ -1,0 +1,47 @@
+/*
+Error: Invalid CSS after "...ial, sans-serif": expected "{", was ";"
+        on line 6 of css/main.scss
+
+1: ---
+2: # Only the main Sass file needs front matter (the dashes are enough)
+3: ---
+4: 
+5: // Our variables
+6: $base-font-family: Helvetica, Arial, sans-serif;
+7: $base-font-size:   16px;
+8: $small-font-size:  $base-font-size * 0.875;
+9: $base-line-height: 1.5;
+10: 
+11: $spacing-unit:     30px;
+
+Backtrace:
+css/main.scss:6
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/scss/parser.rb:1163:in `expected'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/scss/parser.rb:1099:in `expected'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/scss/parser.rb:1094:in `tok!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/scss/parser.rb:641:in `block'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/scss/parser.rb:635:in `ruleset'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/scss/parser.rb:660:in `block_child'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/scss/parser.rb:650:in `block_contents'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/scss/parser.rb:117:in `stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/scss/parser.rb:42:in `parse'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/engine.rb:393:in `_to_tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:329:in `block in watch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:276:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:276:in `_process_changes'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:233:in `block in _wait_for_changes'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:216:in `loop'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:216:in `_wait_for_changes'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:312:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ial, sans-serif\": expected \"{\", was \";\"\A         on line 6 of css/main.scss\A \A 1: ---\A 2: # Only the main Sass file needs front matter (the dashes are enough)\A 3: ---\A 4: \A 5: // Our variables\A 6: $base-font-family: Helvetica, Arial, sans-serif;\A 7: $base-font-size:   16px;\A 8: $small-font-size:  $base-font-size * 0.875;\A 9: $base-line-height: 1.5;\A 10: \A 11: $spacing-unit:     30px;"; }
