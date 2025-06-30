@@ -3,6 +3,7 @@
 > A sleek, minimalist Jekyll theme built for modern creators.
 
 [![Demo Video](http://i.ytimg.com/vi/HVFvPAbnSjQ/hqdefault.jpg)](https://www.youtube.com/watch?v=HVFvPAbnSjQ)
+
 📺 **Click the image to watch the demo!**
 
 ---
